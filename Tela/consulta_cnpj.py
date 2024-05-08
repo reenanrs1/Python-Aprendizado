@@ -6,7 +6,7 @@ import openpyxl
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
-def Janela1():
+def Janela2():
     def is_valid_cnpj(cnpj):
         # Remove qualquer caracter que não seja número
         cnpj = re.sub(r'\D', '', cnpj)
